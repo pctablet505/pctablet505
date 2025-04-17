@@ -26,8 +26,8 @@ My work focuses on designing intelligent systems that are fast, efficient, and a
 
 - Better performance with smaller models  
 - Synthetic data generation techniques  
-- Making AI systems explainable and more human-aware  
-- Leveraging statistical thinking for smarter ML pipelines
+- Computer vision techniques, NLP
+- Building a galary search system
 
 ---
 
