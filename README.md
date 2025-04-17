@@ -1,51 +1,62 @@
-# 👋 Hello, I'm Rahul Kumar
+# 👋 Hey, I'm Rahul
 
-🎯 Passionate about Artificial Intelligence, Machine Learning, Data Science, Algorithms, and Advanced Data Structures.
-
-📍 Based in Bokaro Steel City, Jharkhand, India.
+I'm a machine learning engineer who’s fascinated by how machines learn to perceive the world — especially through vision. I love the intersection of code, intelligence, and reality.
 
 ---
 
-## 🧠 About Me
+## 🧠 What Drives Me
 
-- 🔍 Enthusiast in algorithms and artificial intelligence.
-- 📚 Currently delving into probability, statistics, and web programming.
-- 🤝 Open to collaborations on machine learning and algorithm-centric projects.
+I like solving practical problems using smart systems — things that make devices more aware, interfaces more seamless, and interactions more human.  
 
----
+Over the years, I’ve worked with patterns, pixels, and probabilities — building models that are not just accurate, but fast, efficient, and usable.
 
-## 🛠️ Technologies & Tools
-
-- **Programming Languages:** Python, C++, Java
-- **Domains:** Artificial Intelligence, Machine Learning, Data Science, Algorithms
-- **Tools & Platforms:** Git, GitHub, HackerRank
+I’m always trying to bridge the gap between research and production, experimentation and real-world value.
 
 ---
 
-## 📈 GitHub Stats
+## 🔧 What I’m Into
 
-![Rahul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pctablet505&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pctablet505&layout=compact&theme=radical)
-
----
-
-## 📌 Pinned Projects
-
-### [Skip List Implementation](https://github.com/pctablet505/skiplist)
-
-A Python3 implementation of the Skip List data structure, facilitating efficient search, insertion, and deletion operations.
-
-### [Van Emde Boas Tree](https://github.com/pctablet505/van-Emde-Boas-Tree)
-
-An implementation of the Van Emde Boas Tree in Python, optimizing operations for integer keys.
+- Machine Learning & Deep Learning  
+- Computer Vision (object detection, restoration, gaze tracking, etc.)  
+- On-device AI & model optimization  
+- Clean code, creative problem solving, and continuous learning  
 
 ---
 
-## 📫 Connect with Me
+## 🧰 Tools I Reach For
 
-- 🌐 [HackerRank Profile](https://www.hackerrank.com/pctablet505)
+`Python` `C++` `Java` `TensorFlow` `PyTorch` `Keras` `OpenCV`  
+`Scikit-learn` `Docker` `Flask` `Django` `SQL` `Git`  
 
 ---
 
-*Let's collaborate and innovate together!*
+## 📚 Learning + Exploring
+
+- Model optimization techniques (quantization, parallelization)  
+- Statistical modeling and probabilistic thinking  
+- Real-time performance tuning for AI applications  
+- Synthetic data generation for computer vision  
+- Scalable AI architecture and tooling (Keras, TensorFlow, etc.)
+
+---
+
+## 📊 GitHub Insights
+
+![Rahul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pctablet505&show_icons=true&theme=transparent&hide_rank=true)
+
+![Rahul's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pctablet505&layout=compact&theme=transparent)
+
+![Rahul's GitHub Streak](https://streak-stats.demolab.com/?user=pctablet505&theme=transparent)
+
+---
+
+## 📈 Visitors
+
+![Visitor Badge](https://komarev.com/ghpvc/?username=pctablet505&style=flat&color=blue)
+
+---
+
+> *“Machines are mirrors. The smarter they get, the more we learn about ourselves.”*
+
+Thanks for stopping by. This space is a mix of curiosity, quiet experiments, and occasional breakthroughs.  
+Feel free to check out my public work or just say hi. 👋
