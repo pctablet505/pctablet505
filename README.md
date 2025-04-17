@@ -47,6 +47,5 @@ My work focuses on designing intelligent systems that are fast, efficient, and a
 
 ---
 
-> *"Machines are mirrors. The smarter they get, the more we learn about ourselves."*
 
 Thanks for visiting. Feel free to browse, fork, or just say hi. 👋
