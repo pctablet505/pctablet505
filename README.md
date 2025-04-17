@@ -22,13 +22,6 @@ My work focuses on designing intelligent systems that are fast, efficient, and a
 
 ---
 
-## 🧰 Tools I Use Regularly
-
-`Python` `C++` `Java` `TensorFlow` `Keras` `PyTorch` `OpenCV`  
-`Docker` `Scikit-learn` `Flask` `Django` `SQL` `Git`
-
----
-
 ## 📚 Currently Exploring
 
 - Better performance with smaller models  
