@@ -38,6 +38,12 @@ flowchart LR
 Edge & on-device AI · model optimization (quantization, latency, memory) ·
 multi-backend Keras internals · computer vision & applied ML that actually ships.
 
+Outside of Keras, my main project is **RL Alpha Labs** — a JAX-native
+algorithmic-trading platform: PPO/DQN agents trading across **746 NSE
+instruments** on 3.5+ years of market data, **128 vectorized environments**
+for parallel rollout, and full portfolio simulation with risk controls.
+The code is private, but there's a **[live demo →](https://pctablet505.github.io/RLAlphaLabs/)**
+
 > 🕶 **The part you can't see here:** my major work before Google was
 > **face recognition and face-related solutions** — plus computer-vision and
 > camera/sensor problems — at Samsung R&D and Qualcomm. Real-time face auth
@@ -51,6 +57,7 @@ multi-backend Keras internals · computer vision & applied ML that actually ship
 
 | Project | What it is |
 |---|---|
+| [RL Alpha Labs](https://pctablet505.github.io/RLAlphaLabs/) 🔒 | JAX-native RL trading platform — PPO/DQN over 746 NSE instruments, 128 vectorized envs, portfolio simulation with risk controls · private repo, [live demo](https://pctablet505.github.io/RLAlphaLabs/) |
 | [ats-optimizer](https://github.com/pctablet505/ats-optimizer) | Truthful, human-in-the-loop job-application automation — feed-based discovery, knowledge vault, tailored resumes, ATS analysis |
 | [litert-demo](https://github.com/pctablet505/litert-demo) | End-to-end export of KerasHub Gemma3 → LiteRT `.tflite` / LiteRT-LM `.litertlm` |
 | [gemma-tflite-android-demo](https://github.com/pctablet505/gemma-tflite-android-demo) | Gemma running fully on-device on Android |
