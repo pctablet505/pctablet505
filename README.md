@@ -2,7 +2,8 @@
 
 **ML Engineer at Google, working on Keras** — I enjoy making machines a little
 smarter every day, and making the smart ones run fast on small devices.
-Previously at Qualcomm and Samsung R&D. Based in India 🇮🇳.
+Previously at Qualcomm and Samsung R&D, building **face recognition, computer
+vision, and sensor-driven systems** for millions of devices. Based in India 🇮🇳.
 
 🌐 **[pctablet505.github.io](https://pctablet505.github.io)** · 💼 [LinkedIn](https://linkedin.com/in/rahul126) · 📈 1,000+ contributions in the last year
 
@@ -36,6 +37,13 @@ flowchart LR
 
 Edge & on-device AI · model optimization (quantization, latency, memory) ·
 multi-backend Keras internals · computer vision & applied ML that actually ships.
+
+> 🕶 **The part you can't see here:** my major work before Google was
+> **face recognition and face-related solutions** — plus computer-vision and
+> camera/sensor problems — at Samsung R&D and Qualcomm. Real-time face auth
+> serving 10,000+ registered faces on-device, embedding search cut from
+> 1,200 ms → 87 ms, sensor-based drop detection at 95% less power. All
+> closed-source, so GitHub only shows my Keras side.
 
 ---
 
