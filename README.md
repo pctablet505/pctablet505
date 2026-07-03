@@ -11,18 +11,22 @@ vision, and sensor-driven systems** for millions of devices. Based in India 🇮
 
 ## ⚡ Open-source impact
 
-**60 merged PRs** across Google's Keras ecosystem —
-[keras](https://github.com/keras-team/keras/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) (40) ·
-[keras-hub](https://github.com/keras-team/keras-hub/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) (15) ·
-[keras-io](https://github.com/keras-team/keras-io/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) (3) ·
-[litert-torch](https://github.com/google-ai-edge/litert-torch/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) (2)
+**108 PRs authored** across Google's Keras ecosystem —
+**43 merged** ([keras](https://github.com/keras-team/keras/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) 26 ·
+[keras-hub](https://github.com/keras-team/keras-hub/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) 17) and
+**35 in review** across keras, keras-hub, keras-io & litert-torch.
 
-Some I'm proud of:
+Merged work I'm proud of:
 
 - [keras#22758](https://github.com/keras-team/keras/pull/22758) — **LiteRT export for the PyTorch backend**: on-device deployment of PyTorch-trained Keras 3 models
-- [keras#22822](https://github.com/keras-team/keras/pull/22822) — **security fix in `deserialize_keras_object`**: closed a namespace-hijacking / callable-injection hole in model loading
-- [keras#23186](https://github.com/keras-team/keras/pull/23186) — **faster attention on torch**: SDPA `is_causal` dispatch + bounded causal-mask cache in `MultiHeadAttention`
-- [keras#23189](https://github.com/keras-team/keras/pull/23189) — **hot-path speedups** in `convert_to_tensor` / `cast` on the torch backend
+- [keras-hub#2132](https://github.com/keras-team/keras-hub/pull/2132) — **Llama 3.1 implemented in KerasHub**
+- [keras#22362](https://github.com/keras-team/keras/pull/22362) — **serialization fix**: custom models with sublayers in nested lists failed to save/load
+- [keras#22998](https://github.com/keras-team/keras/pull/22998) — **torch-backend `SymInt` handling** in `convert_to_tensor` and `slice`
+
+In review right now: a **13-PR torch-performance series** (SDPA causal dispatch,
+`convert_to_tensor` fast paths, …), **KerasHub → LiteRT-LM export**, and the
+**official keras.io LiteRT export guide** —
+[open PRs →](https://github.com/pulls?q=is%3Apr+author%3Apctablet505+is%3Aopen+org%3Akeras-team+org%3Agoogle-ai-edge)
 
 ---
 
