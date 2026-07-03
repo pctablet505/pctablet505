@@ -54,8 +54,11 @@ multi-backend Keras internals · computer vision & applied ML that actually ship
 
 ## 📊 GitHub at a glance
 
-![Rahul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pctablet505&show_icons=true&theme=transparent&hide_title=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pctablet505&layout=compact&theme=transparent&hide=jupyter%20notebook,tex,html,css,smarty,jinja,mako,purebasic)
+<!-- Static self-generated cards (see gen_cards.py) — the shared
+     github-readme-stats instance rate-limits and breaks randomly. -->
+![GitHub activity](assets/stats-light.svg#gh-light-mode-only)![Top languages](assets/langs-light.svg#gh-light-mode-only)
+![GitHub activity](assets/stats-dark.svg#gh-dark-mode-only)![Top languages](assets/langs-dark.svg#gh-dark-mode-only)
+
 ![GitHub Streak](https://streak-stats.demolab.com?user=pctablet505&theme=transparent)
 
 ---
