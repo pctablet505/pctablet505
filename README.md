@@ -61,7 +61,7 @@ The code is private, but there's a **[live demo →](https://pctablet505.github.
 
 | Project | What it is |
 |---|---|
-| [Porchlamp](https://pctablet505.github.io/porchlamp/) 🏮 | **Find the projects that leave the light on** — 11,000 open-source projects ranked across 212,390 outside PRs by what happens to a stranger's pull request, not by stars (36.9% of active projects are black holes; star correlation is 0.13) · [live ranking](https://pctablet505.github.io/porchlamp/) · [repo](https://github.com/pctablet505/porchlamp) |
+| [Porchlamp](https://porchlamp.org/) 🏮 | **Find the projects that leave the light on** — 11,000 open-source projects ranked across 212,390 outside PRs by what happens to a stranger's pull request, not by stars (36.9% of active projects are black holes; star correlation is 0.13) · [live ranking](https://pctablet505.github.io/porchlamp/) · [repo](https://github.com/pctablet505/porchlamp) |
 | [RL Alpha Labs](https://pctablet505.github.io/RLAlphaLabs/) 🔒 | JAX-native RL trading platform — PPO/DQN over 746 NSE instruments, 128 vectorized envs, portfolio simulation with risk controls · private repo, [live demo](https://pctablet505.github.io/RLAlphaLabs/) |
 | [ats-optimizer](https://github.com/pctablet505/ats-optimizer) | Truthful, human-in-the-loop job-application automation — feed-based discovery, knowledge vault, tailored resumes, ATS analysis |
 | [litert-demo](https://github.com/pctablet505/litert-demo) | End-to-end export of KerasHub Gemma3 → LiteRT `.tflite` / LiteRT-LM `.litertlm` |
