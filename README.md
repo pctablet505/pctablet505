@@ -5,7 +5,7 @@ smarter every day, and making the smart ones run fast on small devices.
 Previously at Qualcomm and Samsung R&D, building **face recognition, computer
 vision, and sensor-driven systems** for millions of devices. Based in India 🇮🇳.
 
-🌐 **[pctablet505.github.io](https://pctablet505.github.io)** · 💼 [LinkedIn](https://linkedin.com/in/rahul126) · 📈 1,000+ contributions in the last year
+🌐 **[pctablet505.github.io](https://pctablet505.github.io)** · 💼 [LinkedIn](https://www.linkedin.com/in/pctablet505/) · 📈 1,000+ contributions in the last year
 
 ---
 
