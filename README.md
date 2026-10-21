@@ -1,6 +1,6 @@
 # Hi, I'm Rahul 👋
 
-**ML Engineer at Google, working on Keras** — I enjoy making machines a little
+**ML engineer and open-source contributor to Keras** — I enjoy making machines a little
 smarter every day, and making the smart ones run fast on small devices.
 Previously at Qualcomm and Samsung R&D, building **face recognition, computer
 vision, and sensor-driven systems** for millions of devices. Based in India 🇮🇳.
@@ -11,10 +11,10 @@ vision, and sensor-driven systems** for millions of devices. Based in India 🇮
 
 ## ⚡ Open-source impact
 
-**108 PRs authored** across Google's Keras ecosystem —
-**43 merged** ([keras](https://github.com/keras-team/keras/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) 26 ·
-[keras-hub](https://github.com/keras-team/keras-hub/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) 17) and
-**35 in review** across keras, keras-hub, keras-io & litert-torch.
+**100+ merged pull requests** in 70+ open-source projects, **60+ of them in the Keras ecosystem**
+([keras](https://github.com/keras-team/keras/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged) ·
+[keras-hub](https://github.com/keras-team/keras-hub/pulls?q=is%3Apr+author%3Apctablet505+is%3Amerged)).
+GitHub keeps the live count: [all merged pull requests →](https://github.com/search?q=is%3Apr+author%3Apctablet505+is%3Amerged+-user%3Apctablet505&type=pullrequests)
 
 Merged work I'm proud of:
 
@@ -23,10 +23,8 @@ Merged work I'm proud of:
 - [keras#22362](https://github.com/keras-team/keras/pull/22362) — **serialization fix**: custom models with sublayers in nested lists failed to save/load
 - [keras#22998](https://github.com/keras-team/keras/pull/22998) — **torch-backend `SymInt` handling** in `convert_to_tensor` and `slice`
 
-In review right now: a **13-PR torch-performance series** (SDPA causal dispatch,
-`convert_to_tensor` fast paths, …), **KerasHub → LiteRT-LM export**, and the
-**official keras.io LiteRT export guide** —
-[open PRs →](https://github.com/pulls?q=is%3Apr+author%3Apctablet505+is%3Aopen+org%3Akeras-team+org%3Agoogle-ai-edge)
+In review right now: 40+ pull requests, including vLLM, Keras and keras.io —
+[open pull requests →](https://github.com/search?q=is%3Apr+author%3Apctablet505+is%3Aopen+-user%3Apctablet505&type=pullrequests)
 
 ---
 
@@ -42,13 +40,13 @@ flowchart LR
 Edge & on-device AI · model optimization (quantization, latency, memory) ·
 multi-backend Keras internals · computer vision & applied ML that actually ships.
 
-Outside of Keras, my main project is **RL Alpha Labs** — a JAX-native
-algorithmic-trading platform: PPO/DQN agents trading across **746 NSE
+Outside of Keras, my main project is **[RL Alpha Labs](https://rlalphalabs.com/)** — a research-stage, JAX-native
+lab for algorithmic trading on Indian equities: PPO/DQN agents tested across **746 NSE
 instruments** on 3.5+ years of market data, **128 vectorized environments**
-for parallel rollout, and full portfolio simulation with risk controls.
-The code is private, but there's a **[live demo →](https://pctablet505.github.io/RLAlphaLabs/)**
+for parallel rollout, and full portfolio simulation with risk controls; no live capital is deployed.
+The code is private; the research, field notes and benchmarks are at **[rlalphalabs.com →](https://rlalphalabs.com/)**
 
-> 🕶 **The part you can't see here:** my major work before Google was
+> 🕶 **The part you can't see here:** my earlier work was
 > **face recognition and face-related solutions** — plus computer-vision and
 > camera/sensor problems — at Samsung R&D and Qualcomm. Real-time face auth
 > serving 10,000+ registered faces on-device, embedding search cut from
@@ -61,9 +59,12 @@ The code is private, but there's a **[live demo →](https://pctablet505.github.
 
 | Project | What it is |
 |---|---|
-| [Porchlamp](https://porchlamp.org/) 🏮 | **Find the projects that leave the light on** — 11,000 open-source projects ranked across 212,390 outside PRs by what happens to a stranger's pull request, not by stars (36.9% of active projects are black holes; star correlation is 0.13) · [live ranking](https://porchlamp.org/) · [repo](https://github.com/pctablet505/porchlamp) |
-| [RL Alpha Labs](https://pctablet505.github.io/RLAlphaLabs/) 🔒 | JAX-native RL trading platform — PPO/DQN over 746 NSE instruments, 128 vectorized envs, portfolio simulation with risk controls · private repo, [live demo](https://pctablet505.github.io/RLAlphaLabs/) |
-| [ats-optimizer](https://github.com/pctablet505/ats-optimizer) | Truthful, human-in-the-loop job-application automation — feed-based discovery, knowledge vault, tailored resumes, ATS analysis |
+| [Porchlamp](https://porchlamp.org/) 🏮 | **Find the projects that leave the light on** — 11,000 open-source projects ranked by what happens to a stranger's pull request, not by stars · [latest report](https://porchlamp.org/black-holes/) · [live ranking](https://porchlamp.org/) · [repo](https://github.com/pctablet505/porchlamp) |
+| [RL Alpha Labs](https://rlalphalabs.com/) 🔒 | Research-stage, JAX-native RL trading research on Indian equities — PPO/DQN over 746 NSE instruments, 128 vectorized envs, portfolio simulation with risk controls · private code, [research and notes](https://rlalphalabs.com/research/) |
+| [Servedeck](https://github.com/pctablet505/servedeck) | A systemd control plane, an OpenAI-compatible `/v1` gateway and a live dashboard for native vLLM on one Linux GPU workstation · [docs](https://pctablet505.github.io/servedeck/) |
+| [GLM-5.3 on one GPU](https://github.com/pctablet505/glm53-flash-single-gpu) | GLM-5.3-Flash (320B total, 18B active, NVFP4) on one RTX PRO 6000 Blackwell — the best result we know of on a single RTX PRO 6000, with the full method |
+| [flakehound](https://github.com/pctablet505/flakehound) | Hunt flaky tests before they bite: static flaky-pattern detection and run-history scoring for pytest, ML-testing aware (JAX, PyTorch, NumPy) |
+| ats-optimizer 🔒 | Truthful, human-in-the-loop job-application automation — feed-based discovery, knowledge vault, tailored resumes, ATS analysis · private repo |
 | [litert-demo](https://github.com/pctablet505/litert-demo) | End-to-end export of KerasHub Gemma3 → LiteRT `.tflite` / LiteRT-LM `.litertlm` |
 | [gemma-tflite-android-demo](https://github.com/pctablet505/gemma-tflite-android-demo) | Gemma running fully on-device on Android |
 | [jax-windows-cuda-build](https://github.com/pctablet505/jax-windows-cuda-build) | CUDA build scripts, patches & pre-built JAX wheels for Windows |
