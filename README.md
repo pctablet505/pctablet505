@@ -9,11 +9,13 @@ The model you need rarely fits where it has to run, and the number you are shown
 
 | | |
 |:--|:--|
-| **11.6x faster** | Compiled text generation in Keras on PyTorch, from 15 fixes merged upstream. [How →](https://pctablet505.github.io/work/keras-pytorch-speed/) |
+| **99.2% at 30+ FPS** | Face recognition for access control, many faces at once on edge devices. Face search across 10,000+ people went from 1,200 ms to 87 ms. [How →](https://pctablet505.github.io/work/face-recognition/) |
+| **Under 22 parameters** | A phone-drop detector in place of a deep-learning model with millions: over 95% less power, accuracy 97% → 95.2%. [How →](https://pctablet505.github.io/work/drop-detection/) |
 | **10.8 → 15.0 tokens/s** | A 181 GiB LLM on one 96 GiB GPU, with my gather kernel and expert cache. [How →](https://github.com/pctablet505/glm53-flash-single-gpu) |
+| **11.6x faster** | Compiled text generation in Keras on PyTorch, from 15 fixes merged upstream. [How →](https://pctablet505.github.io/work/keras-pytorch-speed/) |
 | **70% → 90%** | Damaged barcodes read on phones, with models trained on 10M+ synthetic images. [How →](https://pctablet505.github.io/work/damaged-barcodes/) |
-| **Under 20 parameters** | A phone-drop detector in place of one with millions, at 95% less power and 98% → 96% accuracy. [How →](https://pctablet505.github.io/work/drop-detection/) |
-| **69 of 70** | Capital-and-breadth tiers in which an index fund beat holding Indian stocks directly, after costs and tax. [RL Alpha Labs →](https://rlalphalabs.com/) |
+| **Survivorship-free** | RL Alpha Labs: a point-in-time NSE simulator with delisted companies kept in, one execution, fee and tax engine for backtests and paper trading, and RL agents in pure JAX. [See the lab →](https://rlalphalabs.com/) |
+| **11,000 projects** | Porchlamp ranks open-source projects by whether they reply to, review or merge a stranger's pull request, not by stars. [Find one →](https://porchlamp.org/) |
 | **100 merged PRs** | In 38 open-source projects: Keras, KerasHub, vLLM, pip, pydantic. [See them →](https://github.com/search?q=is%3Apr+author%3Apctablet505+is%3Amerged+-user%3Apctablet505&type=pullrequests) |
 
-**[LinkedIn](https://www.linkedin.com/in/pctablet505/) · [pctablet505.github.io](https://pctablet505.github.io/)** · Open to roles in ML performance, LLM inference, computer vision and on-device AI.
+**[LinkedIn](https://www.linkedin.com/in/pctablet505/) · [pctablet505.github.io](https://pctablet505.github.io/)** · Open to roles in ML performance, LLM inference, computer vision, biometrics and on-device AI.
