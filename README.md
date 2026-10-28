@@ -1,21 +1,20 @@
 <a href="https://pctablet505.github.io/">
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/card.png">
-  <img src="assets/banner.png" width="100%" alt="Big models, small places, real numbers. LLM inference, computer vision, on-device AI, automated trading. Rahul Kumar, pctablet505.">
-</picture>
+<img src="assets/banner-readme.png" width="100%" alt="Big models, small places, real numbers. pctablet505.">
 </a>
 
-The model you need rarely fits where it has to run, and the number you are shown is rarely the one that decides. I work on both: vision and sensing on phones, large models on one GPU, and automated trading after costs and tax.
+I make models fit where they have to run, then check what they really do.
 
-| | |
-|:--|:--|
-| **99.2% at 30+ FPS** | Face recognition for access control, many faces at once on edge devices. Face search across 10,000+ people went from 1,200 ms to 87 ms. [How →](https://pctablet505.github.io/work/face-recognition/) |
-| **Under 22 parameters** | A phone-drop detector in place of a deep-learning model with millions: over 95% less power, accuracy 97% → 95.2%. [How →](https://pctablet505.github.io/work/drop-detection/) |
-| **10.8 → 15.0 tokens/s** | A 181 GiB LLM on one 96 GiB GPU, with my gather kernel and expert cache. [How →](https://github.com/pctablet505/glm53-flash-single-gpu) |
-| **11.6x faster** | Compiled text generation in Keras on PyTorch, from 15 fixes merged upstream. [How →](https://pctablet505.github.io/work/keras-pytorch-speed/) |
-| **70% → 90%** | Damaged barcodes read on phones, with models trained on 10M+ synthetic images. [How →](https://pctablet505.github.io/work/damaged-barcodes/) |
-| **Survivorship-free** | RL Alpha Labs: a point-in-time NSE simulator with delisted companies kept in, one execution, fee and tax engine for backtests and paper trading, and RL agents in pure JAX. [See the lab →](https://rlalphalabs.com/) |
-| **11,000 projects** | Porchlamp ranks open-source projects by whether they reply to, review or merge a stranger's pull request, not by stars. [Find one →](https://porchlamp.org/) |
-| **100 merged PRs** | In 38 open-source projects: Keras, KerasHub, vLLM, pip, pydantic. [See them →](https://github.com/search?q=is%3Apr+author%3Apctablet505+is%3Amerged+-user%3Apctablet505&type=pullrequests) |
+**Upstream**
+- **Keras on PyTorch:** 15 merged fixes, one root cause each. Compiled text generation on Keras master got 11.6x faster from July to October. [Progress report](https://github.com/keras-team/keras/issues/22561#issuecomment-6247116051)
+- **LiteRT export in Keras and KerasHub:** one call turns a trained model into a file a phone runs. I wrote [the keras.io guide](https://keras.io/guides/litert_export/).
+- **KerasHub:** added Llama 3.1, and fixed Gemma 3 bugs, including a preprocessor crash across Gemma 3, 3n and 4.
+- **100 merged pull requests in 38 projects**, among them Keras, KerasHub, vLLM, pip and pydantic. [All of them](https://github.com/search?q=is%3Apr+author%3Apctablet505+is%3Amerged+-user%3Apctablet505&type=pullrequests)
 
-**[LinkedIn](https://www.linkedin.com/in/pctablet505/) · [pctablet505.github.io](https://pctablet505.github.io/)** · Open to roles in ML performance, LLM inference, computer vision, biometrics and on-device AI.
+**On phones**
+- A drop detector with under 22 parameters, in place of a deep-learning model with millions: over 95% less power, accuracy 97% → 95.2%.
+- Face recognition at 30+ FPS on edge devices, with face search across 10,000+ people in 87 ms.
+
+**What I build** (pinned below)
+- [A 181 GiB model on one 96 GiB GPU](https://github.com/pctablet505/glm53-flash-single-gpu): decoding from 10.8 to 15.0 tokens a second.
+- [Porchlamp](https://porchlamp.org/): how 11,000 open-source projects treat a stranger's pull request. See where yours stands.
+- [RL Alpha Labs](https://rlalphalabs.com/): automated trading on Indian stocks, on paper, judged against an index fund after costs and tax.
