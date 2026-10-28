@@ -1,5 +1,8 @@
 <a href="https://pctablet505.github.io/">
-<img src="assets/banner.png" width="100%" alt="Big models, small places, real numbers. LLM inference, computer vision, on-device AI, automated trading. Rahul Kumar, pctablet505.">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/card.png">
+  <img src="assets/banner.png" width="100%" alt="Big models, small places, real numbers. LLM inference, computer vision, on-device AI, automated trading. Rahul Kumar, pctablet505.">
+</picture>
 </a>
 
 The model you need rarely fits where it has to run, and the number you are shown is rarely the one that decides. I work on both: vision and sensing on phones, large models on one GPU, and automated trading after costs and tax.
